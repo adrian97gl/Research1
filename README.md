@@ -1,6 +1,6 @@
 # Research1 how to run the chatbot
 
-1. git clone the repository
+1. git clone the https://github.com/adrian97gl/Research1.git
 2. cd Research1
 3. source chatbot_research/bin/activate ( you can skip this step) 
 4. docker build -t dockerchatbot   ( create and build the docker image )
