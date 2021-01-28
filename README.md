@@ -6,4 +6,5 @@
 4. docker build -t dockerchatbot   ( create and build the docker image )
 
 For docker to comunicate outside you will neded to specify the port:
+
 5. docker run 5000:5000 dockerchatbot ( run the docker file with a specific port )
