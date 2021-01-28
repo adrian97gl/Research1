@@ -12,7 +12,6 @@
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
   <section class="msger">
     <header class="msger-header">
       <div class="msger-header-title">
@@ -51,7 +50,6 @@
     const msgerChat = get(".msger-chat");
 
 
-    // Icons made by Freepik from www.flaticon.com
     const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
     const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
     const BOT_NAME = "ChatBot";
@@ -69,7 +67,6 @@
     });
 
     function appendMessage(name, img, side, text) {
-      //   Simple solution for small apps
       const msgHTML = `
 <div class="msg ${side}-msg">
   <div class="msg-img" style="background-image: url(${img})"></div>
