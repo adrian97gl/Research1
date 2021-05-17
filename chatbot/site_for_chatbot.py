@@ -15,7 +15,6 @@ def home():
 def get_bot_response():
     userAnswer = request.args.get('msg')
     chat = mymodule.ChatBot(userAnswer)
-    # print(str(chat.check_answer()))
     return str(chat.check_answer())
 
 
